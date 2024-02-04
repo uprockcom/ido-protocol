@@ -1,0 +1,23 @@
+[package]
+name = "ido-protocol"
+version = "0.0.1"
+description = "The Ticket IDO Protocol"
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "ido_protocol"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+no-date-check=[]
+
+[dependencies]
+anchor-lang = { version = "0.26.0",features = ["init-if-needed"]}
+anchor-spl = "0.26.0"
+spl-token = "3.5.0"
+metaplex-token-metadata = {version = "0.0.1", features = ["no-entrypoint"]}

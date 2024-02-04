@@ -1,0 +1,46 @@
+[programs.localnet]
+ido_protocol = "ido5zRdfphtyeov8grJqBszfWquvTCAvRzGycSfPXuX"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/Users/tufan/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
+#
+#[features]
+#seeds = false
+#[programs.localnet]
+#splendor = "xmtn2vByiRMraod2aVHYXB9mxRJQ3Z3Y7SnvSdAy8qn"
+#
+#[registry]
+#url = "https://anchor.projectserum.com/"
+#
+#[[test.validator.clone]]
+#address = "4bcFeLv4nydFrsZqV5CgwCVrPhkQKsXtzfy2KyMz7ozM"
+#[[test.validator.clone]]
+#address = "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+#[[test.validator.clone]]
+#address = "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB"
+#[[test.validator.clone]]
+#address = "Amig8TisuLpzun8XyGfC5HJHHGUQEscjLgoTWsCCKihg"
+#[[test.validator.clone]]
+#address = "gLhY2arqFpmVGkpbBbTi3TeWbsWevA8dqrwbKacK3vJ"
+#[[test.validator.clone]]
+#address = "8ojYYusVjAKTB7tHjKb9oCBubhhU4vHQDNCcUAdg2ikb"
+#[[test.validator.clone]]
+#address = "DpxS9YTv7e7MD9USgniaG4G5n4gVGAk8HJ6p7AXDXcxq"
+#[[test.validator.clone]]
+#address = "5KuYEobaCTkQntwdHBZZJpo8HLAb3ruvcWKC1z5RHGJk"
+#[test.validator]
+#url = "m"
+#
+#[provider]
+#cluster = "localnet"
+#wallet = "./devlet2.json"
+#
+#[scripts]
+#test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/*/.ts"
