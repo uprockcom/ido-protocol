@@ -124,3 +124,11 @@ Note
 
 Ensure that the Solana CLI is installed, dependencies are satisfied, and the environment is correctly configured before running any commands. 
 Adjust environment variables, paths, and parameters as needed for your specific setup.
+
+Grants
+-------
+Coming soon
+
+License
+-------
+MIT
