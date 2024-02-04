@@ -10,16 +10,16 @@ Smart Contract
 
 The project is organized into several modules:
 
--   access_controls: Contains modules for enforcing access control policies, ensuring secure and authorized interactions with smart contract functions. 
--   anchor_metaplex: Integrates with the Metaplex library, providing additional features and capabilities for handling NFTs and tokens. 
--   errors: Defines custom error types used throughout the project. 
--   instructions_ido_v1: Implements the core instructions and logic for the IDO protocol, including pool creation, user whitelisting, token deposits, claiming, and more. 
--   state: Defines the data structures representing the state of the smart contracts, including pool information, whitelisted user details, and various statistics.
+-   `access_controls`: Contains modules for enforcing access control policies, ensuring secure and authorized interactions with smart contract functions. 
+-   `anchor_metaplex`: Integrates with the Metaplex library, providing additional features and capabilities for handling NFTs and tokens. 
+-   `errors`: Defines custom error types used throughout the project. 
+-   `instructions_ido_v1`: Implements the core instructions and logic for the IDO protocol, including pool creation, user whitelisting, token deposits, claiming, and more. 
+-   `state`: Defines the data structures representing the state of the smart contracts, including pool information, whitelisted user details, and various statistics.
 
 
 Devnet Keys
 ------------
-Following private keys are using in the smart contract code but not included in the repo. They will be used to keep the devnet program stable
+Following private keys are being used in the smart contract code but not included in the repo. They will be used to keep the devnet program stable
 
 | Key                                              | Description                  |
 |--------------------------------------------------|------------------------------|
