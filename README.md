@@ -133,6 +133,8 @@ We're offering UPT tokens to developers who contribute valuable code to the IDO 
 - Add [Token2022](https://spl.solana.com/token-2022) support.
 - Upgrade [Anchor](https://www.anchor-lang.com/) version.
 - Implement [a fair launch](https://www.coingecko.com/learn/what-is-a-fair-launch-in-crypto) feature.
+- Permissionless pools
+  - A frontend for permissionless IDO pool creation & management
 #### Reward Criteria:
 We'll review pull requests and reward contributions based on complexity, utility, and overall impact on the community.
 ##### Why Contribute?
