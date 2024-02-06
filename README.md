@@ -129,10 +129,10 @@ Developer Grant Program: Earn UPT Tokens
 -------
 We're offering UPT tokens to developers who contribute valuable code to the IDO protocol. Here's how you can earn tokens:
 #### Contribute to Key Features:
-- Add WNS support.
-- Add Token2022 support.
-- Upgrade Anchor version.
-- Implement a fair launch feature.
+- Add [WNS](https://www.jupresear.ch/t/wen-new-standard-wns-0-0) support.
+- Add [Token2022](https://spl.solana.com/token-2022) support.
+- Upgrade [Anchor](https://www.anchor-lang.com/) version.
+- Implement [a fair launch](https://www.coingecko.com/learn/what-is-a-fair-launch-in-crypto) feature.
 #### Reward Criteria:
 We'll review pull requests and reward contributions based on complexity, utility, and overall impact on the community.
 ##### Why Contribute?
