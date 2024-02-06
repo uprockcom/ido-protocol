@@ -125,9 +125,21 @@ Note
 Ensure that the Solana CLI is installed, dependencies are satisfied, and the environment is correctly configured before running any commands. 
 Adjust environment variables, paths, and parameters as needed for your specific setup.
 
-Grants
+Developer Grant Program: Earn UPT Tokens
 -------
-Coming soon
+We're offering UPT tokens to developers who contribute valuable code to the IDO protocol. Here's how you can earn tokens:
+#### Contribute to Key Features:
+- Add WNS support.
+- Add Token2022 support.
+- Upgrade Anchor version.
+- Implement a fair launch feature.
+#### Reward Criteria:
+We'll review pull requests and reward contributions based on complexity, utility, and overall impact on the community.
+##### Why Contribute?
+**Earn Rewards:** Get UPT tokens for your contributions.  
+**Make an Impact:** Help us enhance our project and benefit the ecosystem.
+
+Submit your pull requests, and let’s innovate together!
 
 License
 -------
