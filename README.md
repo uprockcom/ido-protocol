@@ -19,7 +19,7 @@ The project is organized into several modules:
 
 Devnet Keys
 ------------
-Following private keys are being used in the smart contract code but not included in the repo. They will be used to keep the devnet program stable
+Following private keys (they should be in `.keyparis` folders) are being used in the smart contract code but not included in the repo. They will be used to keep the devnet program stable
 
 | Key                                              | Description                  |
 |--------------------------------------------------|------------------------------|
@@ -39,63 +39,35 @@ The project includes several commands to deploy, test, and manage the IDO protoc
 
 ### Airdrop
 
-Perform an airdrop to the specified network:
-
-bashCopy code
-
+Get airdrop to the developer wallet (devnet & testnet only):
 `make airdrop`
 
 ### Build
-
 Build the Solana program:
-
-bashCopy code
-
 `make build`
 
 ### Deploy
-
 Deploy the Solana program:
-
-bashCopy code
-
 `make deploy`
 
 ### Deploy with Resume
-
 Deploy the Solana program with resume functionality (using a buffer):
-
-bashCopy code
-
 `make deploy-resume buffer=<buffer_value>`
 
 ### Test
-
 Run the tests:
-
-bashCopy code
-
 `make test`
 
 ### Test (Skip Build and Deploy)
-
 Run the tests without building and deploying:
-
-bashCopy code
-
 `make test-skip`
 
 ### Create Pool Example
-
 Create a pool using the provided TypeScript example:
-
-bashCopy code
-
 `make create-pool`
 
 Smart Contract Functions
 ------------------------
-
 The smart contract functions represent the core functionalities of the IDO protocol. These include:
 
 - `create_pool`: Admin-only function to create a fundraising pool with specified parameters. 
