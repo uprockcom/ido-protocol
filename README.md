@@ -35,7 +35,7 @@ Following private keys (they should be in `.keyparis` folders) are being used in
 Smart Contract Commands
 -----------------------
 
-The project includes several commands to deploy, test, and manage the IDO protocol. Ensure you have the necessary environment variables and keypairs configured as specified in the [Project Setup](https://chat.openai.com/c/8c4e5855-fc25-48d7-aa34-9655b3d569c5#project-setup) section.
+The project includes several commands to deploy, test, and manage the IDO protocol. Ensure you have the necessary environment variables and keypairs configured as specified in the Project Setup section.
 
 ### Airdrop
 
